@@ -3,6 +3,17 @@
 - support research and intellectual skills
 - support gender balance in tech community
 
+**Structure of our lessons** 
+- Introduction to a topic (~ 15 minutes) 
+- Walk through the relevant code
+- Give attendees time to run the code
+- Discuss errors and performance
+- Answer theoretical questions, provoke thought
+
+**Last Lesson is participant presentations and Q&A** 
+Hacker Dojo used to have Friday Night Lightning talks, they can also present there if they wish
+We want people to share their technical work and thoughts in settings beyond the workshop 
+
 
 
 **Dev Environment**
