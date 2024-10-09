@@ -13,7 +13,8 @@ Anudha Mittal
 This workshop will cover math and coding topics in Machine Learning with some exposure to Deep Learning.    
 Attendees will complete a short project over the 6 meetings.    
 Working in small groups will be encouraged.    
-Three instructors will be available to answer questions.     
+Three instructors will be available to answer questions.   
+There will be a research component: discussion of 2 research papers in deep learning.  
 
 **Pre-requisites:**  
 Interest and curiousity about Machine Learning and Deep Learning  
