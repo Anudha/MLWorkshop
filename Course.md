@@ -45,6 +45,6 @@ We want people to share their technical work and thoughts in settings beyond the
 - MSE
 - Negative Sampling
 
-**Demo your Model** 
+**Demo your Work** 
 - Each attendee will talk through their dataset, their analysis, and/or the model they trained.  
 - This achieves our value in technical communication.  
