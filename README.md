@@ -73,37 +73,37 @@ Our workshop series is structured into a series of lectures, each focusing on a 
 Below is an outline of the lectures:
 
 1. **Introduction to Machine Learning**
-   - Date: January 10, 2024
+   - Date: TBD
    - Overview of machine learning and its applications
    - Types of machine learning: supervised, unsupervised, and reinforcement learning
    - [Lecture Materials](#)
 
 2. **Data Preprocessing and Exploration**
-   - Date: January 17, 2024
+   - Date: TBD
    - Techniques for cleaning and preparing data
    - Exploratory data analysis and visualization
    - [Lecture Materials](#)
 
 3. **Supervised Learning Algorithms**
-   - Date: January 24, 2024
+   - Date: TBD
    - Understanding regression and classification
    - Hands-on with algorithms like linear regression, decision trees, and support vector machines
    - [Lecture Materials](#)
 
 4. **Unsupervised Learning and Clustering**
-   - Date: January 31, 2024
+   - Date: TBD
    - Introduction to clustering and dimensionality reduction
    - Practical applications of k-means and PCA
    - [Lecture Materials](#)
 
 5. **Neural Networks and Deep Learning**
-   - Date: February 7, 2024
+   - Date: TBD
    - Basics of neural networks and deep learning
    - Building and training neural networks with TensorFlow and Keras
    - [Lecture Materials](#)
 
 6. **Model Evaluation and Optimization**
-   - Date: February 14, 2024
+   - Date: TBD
    - Techniques for evaluating model performance
    - Hyperparameter tuning and model optimization strategies
    - [Lecture Materials](#)
