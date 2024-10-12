@@ -12,7 +12,7 @@
 
 **Last Lesson is participant presentations and Q&A** 
 Hacker Dojo used to have Friday Night Lightning talks, they can also present there if they wish
-We want people to share their technical work and thoughts in settings beyond the workshop 
+We want people to share their technical work and thoughts in settings beyond the workshop
 
 
 
