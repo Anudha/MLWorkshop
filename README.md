@@ -29,7 +29,7 @@ Welcome to the Machine Learning Workshops at Hacker Dojo! This course is designe
 
 Location: [Hacker Dojo](https://hackerdojo.org/)<br>
 Cost: $90 per student<br>
-Time: Tuesday/Wednesday/Thursday on 5.30 pm - 6.30 p.m<br>
+Time: Tuesday/Wednesday/Thursday at 5.30 pm - 6.30 p.m<br>
 
 </td>
 </tr>
@@ -40,7 +40,7 @@ Time: Tuesday/Wednesday/Thursday on 5.30 pm - 6.30 p.m<br>
 - **Develop a Strong Foundation**: Equip participants with a solid understanding of fundamental machine learning concepts and techniques.
 - **Hands-On Learning**: Engage in interactive sessions with real-world datasets to build and evaluate machine learning models.
 - **Collaborative Environment**: Work alongside fellow participants in a supportive community, fostering collaboration and knowledge sharing.
-- **Tool Proficiency**: Ensure familiarity with popular machine learning tools and frameworks, such as TensorFlow, PyTorch, and scikit-learn.
+- **Tool Proficiency**: Ensure familiarity with popular machine learning tools and frameworks, such as PyTorch and scikit-learn.
 - **Collaboration and Networking**: Encourage collaboration among participants and provide opportunities for networking with industry professionals.
 - **Portfolio Development**: Create a portfolio of projects completed during the workshops to demonstrate your machine learning skills to potential employers. This portfolio will include detailed documentation, code samples, and results from various machine learning tasks, showcasing your ability to tackle real-world problems and your proficiency with industry-standard tools and techniques.
 
@@ -48,7 +48,7 @@ Time: Tuesday/Wednesday/Thursday on 5.30 pm - 6.30 p.m<br>
 
 In order to take this course, you want to have:
 - Basic Python Skills
-- Interest and curiousity about Machine Learning and Deep Learning
+- Interest and curiosity about Machine Learning and Deep Learning
 
 ### Technologies
 
@@ -61,7 +61,7 @@ On the workshops, we will focus on these technologies:
 
 - **Gintautas Švedas**: Gintautas is a Information Technology graduate from Vilnius University, Lithuania. He now works as an AI engineer at SAP. Previously, he worked with nuclear research at CERN, Switzerland, not to forget Scandinavian banks and contractor roles. He has developed various for software and AI, such as prompt engineering, vector databases and chatbots.
 
-- **John Hanley**: short intro
+- **John Hanley**: has guided startups such as Oracle and Yahoo through rapid growth. He worked for eight years as a researcher in Xerox PARC's machine learning group, helping diverse industry and government partners solve their business problems.
 
 - **Anudha Mittal**: short intro
 
@@ -113,6 +113,4 @@ Participants will have the opportunity to work on hands-on projects and real-wor
 
 ## License
 
-This project is licensed under the **MIT license**. Feel free to edit and distribute this template as you like.
-
-See [LICENSE](LICENSE) for more information.
+See License file for more information.
