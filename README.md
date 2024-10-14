@@ -63,7 +63,10 @@ On the workshops, we will focus on these technologies:
 
 - **John Hanley**: has guided startups such as Oracle and Yahoo through rapid growth. He worked for eight years as a researcher in Xerox PARC's machine learning group, helping diverse industry and government partners solve their business problems.
 
-- **Anudha Mittal**: short intro
+- **Anudha Mittal**: held contract positions in data science and model implementation at Kaiser Permanente and Caterpillar.  She previously published mathematical findings in Ultramicroscopy, Microscopy and Microanalysis, Physical Review B, and Nuclear Engineering and Technology; in addition she has
+published experimental work and worked professionally at the Naval
+Nuclear Lab as a materials engineer. She has also supported
+software development at a microscopy start-up, ZoNexus.
 
 
 ## Lectures
