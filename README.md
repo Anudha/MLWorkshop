@@ -59,7 +59,7 @@ On the workshops, we will focus on these technologies:
 
 ## Instructors
 
-- **Gintautas Švedas**: Gintautas is a Information Technology graduate from Vilnius University, Lithuania. He now works as an AI engineer at SAP. Previously, he worked with nuclear research at CERN, Switzerland, not to forget Scandinavian banks and contractor roles. He has developed various for software and AI, such as prompt engineering, vector databases and chatbots.
+- **Gintautas Švedas**: Gintautas is an Information Technology graduate from Vilnius University, Lithuania. He now works as an AI engineer at SAP. Previously, he worked with nuclear research at CERN, Switzerland, not to mention Scandinavian banks and contractor roles. He has developed various software and AI solutions, such as prompt engineering, vector databases and chatbots.
 
 - **John Hanley**: has guided startups such as Oracle and Yahoo through rapid growth. He worked for eight years as a researcher in Xerox PARC's machine learning group, helping diverse industry and government partners solve their business problems.
 
