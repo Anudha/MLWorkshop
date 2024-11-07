@@ -79,6 +79,7 @@ Below is an outline of the lectures:
    - Tue., 2024-12-03
    - Overview of machine learning and its applications
    - Team formation
+   - First paper presentation
 
 2. **Data Preprocessing and Exploration**
    - Wed., 2024-12-04
@@ -95,6 +96,7 @@ Below is an outline of the lectures:
    - Tue., 2024-12-10
    - Basics of neural networks and deep learning
    - Building and training neural networks with TensorFlow or Keras
+   - Second paper presentation
 
 5. **Unsupervised Learning and Clustering**
    - Wed., 2024-12-11
@@ -102,7 +104,7 @@ Below is an outline of the lectures:
    - Practical applications of k-means and PCA
 
 6. **Model Evaluation; Team Presentations**
-   - Wed., 2024-12-11
+   - Thu., 2024-12-12
    - Techniques for evaluating model performance
    - Hyperparameter tuning and model optimization strategies
    - Teams present their results
