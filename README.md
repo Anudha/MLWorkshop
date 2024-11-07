@@ -76,44 +76,36 @@ Our workshop series is structured into a series of lectures, each focusing on a 
 Below is an outline of the lectures:
 
 1. **Introduction to Machine Learning**
-   - Date: TBD
+   - Tue., 2024-12-03
    - Overview of machine learning and its applications
-   - Types of machine learning: supervised, unsupervised, and reinforcement learning
-   - [Lecture Materials](#)
+   - Team formation
 
 2. **Data Preprocessing and Exploration**
-   - Date: TBD
+   - Wed., 2024-12-04
+   - Types of machine learning: supervised and unsupervised
    - Techniques for cleaning and preparing data
    - Exploratory data analysis and visualization
-   - [Lecture Materials](#)
 
 3. **Supervised Learning Algorithms**
-   - Date: TBD
+   - Thu., 2024-12-05
    - Understanding regression and classification
    - Hands-on with algorithms like linear regression, decision trees, and support vector machines
-   - [Lecture Materials](#)
 
-4. **Unsupervised Learning and Clustering**
-   - Date: TBD
+4. **Neural Networks and Deep Learning**
+   - Tue., 2024-12-10
+   - Basics of neural networks and deep learning
+   - Building and training neural networks with TensorFlow or Keras
+
+5. **Unsupervised Learning and Clustering**
+   - Wed., 2024-12-11
    - Introduction to clustering and dimensionality reduction
    - Practical applications of k-means and PCA
-   - [Lecture Materials](#)
 
-5. **Neural Networks and Deep Learning**
-   - Date: TBD
-   - Basics of neural networks and deep learning
-   - Building and training neural networks with TensorFlow and Keras
-   - [Lecture Materials](#)
-
-6. **Model Evaluation and Optimization**
-   - Date: TBD
+6. **Model Evaluation; Team Presentations**
+   - Wed., 2024-12-11
    - Techniques for evaluating model performance
    - Hyperparameter tuning and model optimization strategies
-   - [Lecture Materials](#)
+   - Teams present their results
 
 Each lecture is designed to build upon the previous one, ensuring a comprehensive understanding of machine learning. 
 Participants will have the opportunity to work on hands-on projects and real-world datasets, reinforcing the concepts learned in each session.
-
-## License
-
-See License file for more information.
