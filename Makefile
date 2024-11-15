@@ -21,7 +21,15 @@ lint:
 	$(ACTIVATE) && pyright .
 	$(ACTIVATE) && mypy $(STRICT) .
 
-test:
+# https://archive.ics.uci.edu/dataset/320/student+performance
+STUDENT_PERF_URL = https://archive.ics.uci.edu/static/public/320/student+performance.zip
+
+/tmp/student-mat.csv:
+	curl -s $(STUDENT_PERF_URL) -o $@
+	cd /tmp && unzip -o $@
+	cd /tmp && unzip -o student.zip && rm -f student-merge.R
+
+test: /tmp/student-performance.zip
 	$(ACTIVATE) && python -m unittest */*/*_test.py
 	$(ACTIVATE) && pytest
 
