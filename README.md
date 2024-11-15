@@ -35,6 +35,17 @@ Time: Tuesday/Wednesday/Thursday at 5.30 pm - 6.30 p.m<br>
 </tr>
 </table>
 
+----
+
+### Quickstart
+
+```bash
+make install
+make lint test
+```
+
+----
+
 ### Goals
 
 - **Develop a Strong Foundation**: Equip participants with a solid understanding of fundamental machine learning concepts and techniques.
@@ -71,7 +82,7 @@ software development at a microscopy start-up, ZoNexus.
 
 ## Lectures
 
-Our workshop series is structured into a series of lectures, each focusing on a key aspect of machine learning. 
+Our workshop series is structured into a series of lectures, each focusing on a key aspect of machine learning.
 
 Below is an outline of the lectures:
 
@@ -109,5 +120,5 @@ Below is an outline of the lectures:
    - Hyperparameter tuning and model optimization strategies
    - Teams present their results
 
-Each lecture is designed to build upon the previous one, ensuring a comprehensive understanding of machine learning. 
+Each lecture is designed to build upon the previous one, ensuring a comprehensive understanding of machine learning.
 Participants will have the opportunity to work on hands-on projects and real-world datasets, reinforcing the concepts learned in each session.

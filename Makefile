@@ -14,11 +14,15 @@ install:
 	uv pip install -r requirements.lock
 	$(ACTIVATE) && pre-commit install
 
+STRICT := --strict --ignore-missing-imports --no-namespace-packages
+
 lint:
 	$(ACTIVATE) && black . && ruff check && isort .
+	$(ACTIVATE) && pyright .
+	$(ACTIVATE) && mypy $(STRICT) .
 
 test:
-	$(ACTIVATE) && python -m unittest */*_test.py
+	$(ACTIVATE) && python -m unittest */*/*_test.py
 	$(ACTIVATE) && pytest
 
 clean:

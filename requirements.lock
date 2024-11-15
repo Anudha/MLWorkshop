@@ -18,6 +18,8 @@ filelock==3.16.1
     # via virtualenv
 identify==2.6.2
     # via pre-commit
+iniconfig==2.0.0
+    # via pytest
 isort==5.13.2
     # via -r requirements.in
 jsonschema==4.23.0
@@ -26,16 +28,24 @@ jsonschema-specifications==2024.10.1
     # via jsonschema
 jupyter-core==5.7.2
     # via nbformat
+mypy==1.13.0
+    # via -r requirements.in
 mypy-extensions==1.0.0
-    # via black
+    # via
+    #   black
+    #   mypy
 nbformat==5.10.4
     # via nbstripout
 nbstripout==0.8.0
     # via -r requirements.in
 nodeenv==1.9.1
-    # via pre-commit
+    # via
+    #   pre-commit
+    #   pyright
 packaging==24.2
-    # via black
+    # via
+    #   black
+    #   pytest
 pathspec==0.12.1
     # via black
 platformdirs==4.3.6
@@ -43,7 +53,13 @@ platformdirs==4.3.6
     #   black
     #   jupyter-core
     #   virtualenv
+pluggy==1.5.0
+    # via pytest
 pre-commit==4.0.1
+    # via -r requirements.in
+pyright==1.1.389
+    # via -r requirements.in
+pytest==8.3.3
     # via -r requirements.in
 pyyaml==6.0.2
     # via pre-commit
@@ -57,9 +73,15 @@ rpds-py==0.21.0
     #   referencing
 ruff==0.7.3
     # via -r requirements.in
+tqdm==4.67.0
+    # via -r requirements.in
 traitlets==5.14.3
     # via
     #   jupyter-core
     #   nbformat
+typing-extensions==4.12.2
+    # via
+    #   mypy
+    #   pyright
 virtualenv==20.27.1
     # via pre-commit
