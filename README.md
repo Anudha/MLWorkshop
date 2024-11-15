@@ -59,7 +59,7 @@ make lint test
 
 ### Prerequisites
 
-In order to take this course, you want to have:
+In order to take this course, you'll want to have:
 - Basic Python Skills
 - Interest and curiosity about Machine Learning and Deep Learning
 
