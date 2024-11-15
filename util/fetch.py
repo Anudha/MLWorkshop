@@ -2,7 +2,9 @@ from hashlib import file_digest, sha3_224
 from io import BytesIO
 
 import pandas as pd
-import requests
+from requests_cache import CachedSession
+
+from util.temp_folder import TEMP
 
 
 def fetch_csv_dataset(
@@ -18,7 +20,8 @@ def fetch_csv_dataset(
     """
     assert url.startswith("http"), url
 
-    resp = requests.get(url)
+    with CachedSession(TEMP / "web_cache") as sess:
+        resp = sess.get(url)
     resp.raise_for_status()
     content = BytesIO(resp.content)
 

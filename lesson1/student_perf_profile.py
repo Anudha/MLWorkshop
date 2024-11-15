@@ -1,9 +1,7 @@
-from pathlib import Path
-
 import pandas as pd
 from ydata_profiling import ProfileReport
 
-TEMP = Path("/tmp")
+from util.temp_folder import TEMP
 
 
 def student_performance_report() -> None:
