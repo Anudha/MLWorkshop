@@ -17,4 +17,6 @@ seaborn
 setuptools
 statsmodels
 tqdm
+ucimlrepo
 ydata-profiling
+types-requests

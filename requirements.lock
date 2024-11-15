@@ -14,7 +14,9 @@ black==24.10.0
 cattrs==24.1.2
     # via requests-cache
 certifi==2024.8.30
-    # via requests
+    # via
+    #   requests
+    #   ucimlrepo
 cfgv==3.4.0
     # via pre-commit
 charset-normalizer==3.4.0
@@ -127,6 +129,7 @@ pandas==2.2.3
     #   phik
     #   seaborn
     #   statsmodels
+    #   ucimlrepo
     #   visions
     #   ydata-profiling
 pathspec==0.12.1
@@ -220,6 +223,8 @@ traitlets==5.14.3
     #   nbformat
 typeguard==4.4.1
     # via ydata-profiling
+types-requests==2.32.0.20241016
+    # via -r requirements.in
 typing-extensions==4.12.2
     # via
     #   mypy
@@ -229,12 +234,15 @@ typing-extensions==4.12.2
     #   typeguard
 tzdata==2024.2
     # via pandas
+ucimlrepo==0.0.7
+    # via -r requirements.in
 url-normalize==1.4.3
     # via requests-cache
 urllib3==2.2.3
     # via
     #   requests
     #   requests-cache
+    #   types-requests
 virtualenv==20.27.1
     # via pre-commit
 visions==0.7.6
