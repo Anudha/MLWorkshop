@@ -7,9 +7,11 @@ ACTIVATE = source .venv/bin/activate
 all:
 	echo "Welcome!"
 
-install:
+.venv:
 	which uv || curl -LsSf https://astral.sh/uv/install.sh | sh
 	uv venv --python=python3.12
+
+install: .venv
 	$(ACTIVATE) && uv pip compile --quiet requirements.in -o requirements.lock
 	$(ACTIVATE) && uv pip install -r requirements.lock
 	$(ACTIVATE) && pre-commit install

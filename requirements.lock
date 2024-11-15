@@ -4,11 +4,15 @@ annotated-types==0.7.0
     # via pydantic
 attrs==24.2.0
     # via
+    #   cattrs
     #   jsonschema
     #   referencing
+    #   requests-cache
     #   visions
 black==24.10.0
     # via -r requirements.in
+cattrs==24.1.2
+    # via requests-cache
 certifi==2024.8.30
     # via requests
 cfgv==3.4.0
@@ -141,6 +145,7 @@ platformdirs==4.3.6
     # via
     #   black
     #   jupyter-core
+    #   requests-cache
     #   virtualenv
 pluggy==1.5.0
     # via pytest
@@ -173,7 +178,11 @@ referencing==0.35.1
     #   jsonschema
     #   jsonschema-specifications
 requests==2.32.3
-    # via ydata-profiling
+    # via
+    #   requests-cache
+    #   ydata-profiling
+requests-cache==1.2.1
+    # via -r requirements.in
 rpds-py==0.21.0
     # via
     #   jsonschema
@@ -194,7 +203,9 @@ seaborn==0.13.2
 setuptools==75.5.0
     # via -r requirements.in
 six==1.16.0
-    # via python-dateutil
+    # via
+    #   python-dateutil
+    #   url-normalize
 statsmodels==0.14.4
     # via
     #   -r requirements.in
@@ -218,8 +229,12 @@ typing-extensions==4.12.2
     #   typeguard
 tzdata==2024.2
     # via pandas
+url-normalize==1.4.3
+    # via requests-cache
 urllib3==2.2.3
-    # via requests
+    # via
+    #   requests
+    #   requests-cache
 virtualenv==20.27.1
     # via pre-commit
 visions==0.7.6

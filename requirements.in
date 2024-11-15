@@ -10,6 +10,7 @@ pandas
 pre-commit
 pyright
 pytest
+requests-cache
 ruff
 scipy
 seaborn
