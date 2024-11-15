@@ -1,3 +1,5 @@
 black
 isort
+nbstripout
+pre-commit
 ruff

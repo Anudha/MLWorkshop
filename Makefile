@@ -12,7 +12,7 @@ install:
 	uv venv --python=python3.12
 	uv pip compile --quiet requirements.in -o requirements.lock
 	uv pip install -r requirements.lock
-	$(ACTIVATE) && ruff check
+	$(ACTIVATE) && pre-commit install
 
 lint:
 	$(ACTIVATE) && black . && ruff check && isort .
