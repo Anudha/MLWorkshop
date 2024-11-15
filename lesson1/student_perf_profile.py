@@ -38,7 +38,7 @@ def clean_student_dataframe(df: pd.DataFrame) -> pd.DataFrame:
         ]
     )
 
-    pd.set_option("future.no_silent_downcasting", True)
+    pd.set_option("future.no_silent_downcasting", value=True)
     y_or_n_cols = [
         "activities",
         "famsup",
@@ -52,8 +52,7 @@ def clean_student_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     for col in y_or_n_cols:
         df[col] = df[col].replace({"yes": 1, "no": 0})
 
-    df = df.infer_objects(copy=False)
-    return df
+    return df.infer_objects(copy=False)
 
 
 def main() -> None:

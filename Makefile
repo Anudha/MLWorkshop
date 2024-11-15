@@ -19,7 +19,7 @@ install: .venv
 STRICT := --strict --ignore-missing-imports --no-namespace-packages
 
 lint:
-	$(ACTIVATE) && black . && ruff check && isort .
+	$(ACTIVATE) && black . && isort . && ruff check
 	$(ACTIVATE) && pyright .
 	$(ACTIVATE) && mypy $(STRICT) .
 
