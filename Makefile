@@ -17,6 +17,10 @@ install:
 lint:
 	$(ACTIVATE) && black . && ruff check && isort .
 
+test:
+	$(ACTIVATE) && python -m unittest */*_test.py
+	$(ACTIVATE) && pytest
+
 clean:
 	rm -rf .venv
 
