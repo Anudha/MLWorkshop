@@ -13,6 +13,7 @@ pytest
 ruff
 scipy
 seaborn
+setuptools
 statsmodels
 tqdm
 ydata-profiling

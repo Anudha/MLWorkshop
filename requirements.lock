@@ -191,6 +191,8 @@ seaborn==0.13.2
     # via
     #   -r requirements.in
     #   ydata-profiling
+setuptools==75.5.0
+    # via -r requirements.in
 six==1.16.0
     # via python-dateutil
 statsmodels==0.14.4

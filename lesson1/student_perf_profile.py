@@ -1,14 +1,18 @@
 from pathlib import Path
 
-import ydata_profiling
+import pandas as pd
+from ydata_profiling import ProfileReport
 
 TEMP = Path("/tmp")
 
 
 def student_performance_report() -> None:
-    data = ydata_profiling.load_dataset(TEMP / "student-mat.csv")
-
-    ydata_profiling.generate_report(data, TEMP / "student_perf_report.html")
+    df = pd.read_csv(TEMP / "student-mat.csv", sep=";")
+    print(df)
+    print(df.dtypes)
+    print(df.describe())
+    prof = ProfileReport(df)
+    prof.to_file(str(TEMP / "student_performance_math_report.html"))
 
 
 if __name__ == "__main__":
