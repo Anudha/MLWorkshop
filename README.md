@@ -39,7 +39,9 @@ Time: Tuesday/Wednesday/Thursday at 5.30 pm - 6.30 p.m<br>
 
 ### Quickstart
 
-```bash
+Begin by cloning the repo to a posix machine, such as Linux, macOS,
+or Windows WSL 2. Then install pypi deps into a venv and run the tests:
+```
 make install
 make lint test
 ```
