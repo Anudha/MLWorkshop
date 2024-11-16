@@ -1,9 +1,10 @@
 black
 isort
+mypy
 nbstripout
 pre-commit
+pyright
 pytest
 ruff
 tqdm
-pyright
-mypy
+xgboost
