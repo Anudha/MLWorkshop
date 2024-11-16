@@ -10,7 +10,7 @@ all:
 install:
 	which uv || curl -LsSf https://astral.sh/uv/install.sh | sh
 	uv venv --python=python3.12
-	uv pip compile --quiet requirements.in -o requirements.lock
+	uv pip compile --quiet requirements.txt -o requirements.lock
 	uv pip install -r requirements.lock
 	$(ACTIVATE) && pre-commit install
 
