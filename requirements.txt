@@ -12,6 +12,7 @@ pyright
 pytest
 requests-cache
 ruff
+scikit-learn
 scipy
 seaborn
 setuptools
