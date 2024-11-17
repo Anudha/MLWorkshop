@@ -55,9 +55,12 @@ def clean_student_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     return df.infer_objects(copy=False)
 
 
-def main() -> None:
+def main(*, want_report: bool = False) -> None:
     df = pd.read_csv(TEMP / "student-mat.csv", sep=";")
-    # student_performance_report(df)
+
+    if want_report:
+        student_performance_report(df)
+
     plot_correlations(df)
 
 
