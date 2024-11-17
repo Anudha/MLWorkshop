@@ -19,4 +19,5 @@ statsmodels
 tqdm
 types-requests
 ucimlrepo
+xgboost
 ydata-profiling
