@@ -1,10 +1,11 @@
 #! /usr/bin/env python
 
-from ollama import chat
+from ollama import chat, generate
 
 
 def main() -> None:
     model = "llama3.2"
+    generate(model=model, prompt="Why is the sky blue?")
 
     stream = chat(
         model=model,
