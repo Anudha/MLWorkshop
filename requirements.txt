@@ -5,10 +5,11 @@ mypy
 nbstripout
 networkx
 numba
-numpy
+numpy < 2
 ollama
 pandas
 pre-commit
+protobuf
 pyright
 pytest
 requests-cache
@@ -16,9 +17,12 @@ ruff
 scikit-learn
 scipy
 seaborn
+sentencepiece
 setuptools
 statsmodels
+torch
 tqdm
+transformers
 types-requests
 ucimlrepo
 xgboost
