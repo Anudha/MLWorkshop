@@ -6,6 +6,7 @@ nbstripout
 networkx
 numba
 numpy
+ollama
 pandas
 pre-commit
 pyright
