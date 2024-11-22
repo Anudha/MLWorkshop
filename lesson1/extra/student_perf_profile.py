@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
@@ -55,9 +57,16 @@ def clean_student_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     return df.infer_objects(copy=False)
 
 
-def main() -> None:
-    df = pd.read_csv(TEMP / "student-mat.csv", sep=";")
-    # student_performance_report(df)
+def get_student_performance_df() -> pd.DataFrame:
+    return pd.read_csv(TEMP / "student-mat.csv", sep=";")
+
+
+def main(*, want_report: bool = False) -> None:
+    df = get_student_performance_df()
+
+    if want_report:
+        student_performance_report(df)
+
     plot_correlations(df)
 
 
